@@ -38,3 +38,19 @@ apparently available tasks were rejected after checking primary sources.
 Each project's license applies to that project's original source. Subcheck is MIT;
 its third-party components have separate terms listed in its THIRD_PARTY.md.
 This repository does not relicense external projects, model weights or dependencies.
+
+## Current opportunity screening
+
+The October 14 availability review found closed Gitpay tasks and ended/suspended
+programmes; the fresh paid-issue review records assignments, hardware requirements
+and stale listings. No implementation was claimed for those tasks.
+
+- [Availability decisions](research/availability-2026-10-14.md)
+- [Six paid issue checks](research/fresh-paid-issues.md)
+- [Mozilla client programme assessment](research/mozilla-client-policy.md)
+
+Mozilla client research is being prepared locally. A PDF.js issue must affect an
+eligible official Firefox build; a standalone library defect does not establish
+bounty eligibility. Any unpublished security findings and evidence remain private
+under the programme's disclosure rules. No new submission, award or payment is
+claimed.
