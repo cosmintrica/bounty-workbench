@@ -8,7 +8,7 @@ will be added here rather than creating a separate repository for every entry.
 
 | Project | Program | Deliverable | Current state |
 | --- | --- | --- | --- |
-| [Subcheck](programs/dev-side-hustle-week2/source/subcheck) | DEV/MLH Side Hustle Week 2 | Local English subtitle review using open Whisper weights | Implemented and locally verified; DEV article is a draft |
+| [Subcheck](programs/dev-side-hustle-week2/source/subcheck) | DEV/MLH Side Hustle Week 2 | Local English subtitle review using open Whisper weights | Experimental prototype; DEV submission on hold after prior-art review |
 
 For Subcheck, see the [48-second demonstration](programs/dev-side-hustle-week2/source/subcheck/demo/subcheck-demo.mp4),
 [verification record](programs/dev-side-hustle-week2/source/subcheck/demo/VERIFICATION.md)
@@ -27,6 +27,8 @@ validation or revenue is claimed.
 - Preserve negative results and known limitations; do not label hypotheses as confirmed vulnerabilities.
 
 ## Research
+
+[Subcheck prior-art review](research/subcheck-prior-art.md) records existing alternatives and the gaps in commercial validation.
 
 [Recent fixed-price issue checks](research/fixed-issues-followup.md) explain why
 apparently available tasks were rejected after checking primary sources.

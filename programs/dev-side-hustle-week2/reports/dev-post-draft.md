@@ -4,7 +4,7 @@ published: false
 tags: devchallenge, hf26challenge
 ---
 
-<!-- LOCAL DRAFT: replace both URL placeholders, review the final demo and approve the text before publication. No contest submission or acceptance is claimed. -->
+<!-- DRAFT ON HOLD: project and video are public, but differentiation and usefulness need reassessment before DEV submission. No submission or acceptance is claimed. -->
 
 A project for the [Hacktoberfest Week 2: Side Hustle challenge](https://dev.to/challenges/hacktoberfest-week2-2026-10-12).
 
@@ -14,9 +14,11 @@ Subcheck turns an English audio file and its SRT captions into a focused listeni
 
 The intended customer is a freelance video editor delivering captioned tutorials, product clips, or interviews. The proposed paid offering is a convenient local caption-review tool with setup and support. Its value would depend on whether the checklist saves more review time than its false positives consume. That is a business hypothesis: there are **zero customers and $0 revenue**, and no editor trial has taken place.
 
+Existing projects such as [Crowbarr](https://github.com/amanofvaly/crowbarr) and [Subtitle Edit](https://nikse.dk/SubtitleEdit/) already cover related subtitle review and synchronization workflows. Subcheck is an experimental implementation; a meaningful advantage for editors has not been demonstrated. The working name is also used by unrelated software.
+
 ## Demo
 
-**Video:** `{{PUBLIC_VIDEO_URL}}`
+**Video:** [View the evidence walkthrough](https://github.com/cosmintrica/bounty-workbench/blob/main/programs/dev-side-hustle-week2/source/subcheck/demo/subcheck-demo.mp4)
 
 The demonstration uses an original, 14.98-second synthetic recording made with [eSpeak NG](https://github.com/espeak-ng/espeak-ng), through [espeakng-loader](https://github.com/thewh1teagle/espeakng-loader). It is not a client recording or a human usability test.
 
@@ -34,7 +36,7 @@ Each run exports a Markdown report, JSON evidence, a listening WAV, and `propose
 
 ## Code
 
-**Public repository:** `{{PUBLIC_REPOSITORY_URL}}`
+**Public repository:** [Source folder in the shared workbench](https://github.com/cosmintrica/bounty-workbench/tree/main/programs/dev-side-hustle-week2/source/subcheck)
 
 The project started on October 14, 2026. Its source includes the CLI, alignment logic, tests, and synthetic-fixture generator. The delivery evidence records the environment, model revision, input hashes, and comparison results. Dependencies and model weights are downloaded separately.
 
