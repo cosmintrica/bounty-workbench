@@ -1,0 +1,23 @@
+test_existing_report_is_preserved (test_cli.InputTests.test_existing_report_is_preserved) ... ok
+test_missing_local_model_is_clear (test_cli.InputTests.test_missing_local_model_is_clear) ... ok
+test_no_findings_report_does_not_claim_accuracy (test_cli.InputTests.test_no_findings_report_does_not_claim_accuracy) ... ok
+test_nonnumeric_thresholds_rejected (test_cli.InputTests.test_nonnumeric_thresholds_rejected) ... ok
+test_asr_draft_roundtrips_and_preserves_words (test_core.CoreTests.test_asr_draft_roundtrips_and_preserves_words) ... ok
+test_cross_cue_deletion_quotes_only_unmatched_fragments (test_core.CoreTests.test_cross_cue_deletion_quotes_only_unmatched_fragments) ... ok
+test_cross_cue_replacement_is_one_shared_span (test_core.CoreTests.test_cross_cue_replacement_is_one_shared_span) ... ok
+test_cue_boundaries_do_not_create_text_mismatches (test_core.CoreTests.test_cue_boundaries_do_not_create_text_mismatches) ... ok
+test_decreasing_word_ends_are_rejected (test_core.CoreTests.test_decreasing_word_ends_are_rejected) ... ok
+test_identical_cues_are_reported_as_ambiguous (test_core.CoreTests.test_identical_cues_are_reported_as_ambiguous) ... ok
+test_invalid_recognition_times_rejected (test_core.CoreTests.test_invalid_recognition_times_rejected) ... ok
+test_malformed_and_duplicate_cues_rejected (test_core.CoreTests.test_malformed_and_duplicate_cues_rejected) ... ok
+test_multiline_bom_and_comma (test_core.CoreTests.test_multiline_bom_and_comma) ... ok
+test_overlap_past_end_and_reading_speed (test_core.CoreTests.test_overlap_past_end_and_reading_speed) ... ok
+test_repeated_words_align_without_omission (test_core.CoreTests.test_repeated_words_align_without_omission) ... ok
+test_single_missing_negation_requires_review (test_core.CoreTests.test_single_missing_negation_requires_review) ... ok
+test_timing_and_omission_are_distinct (test_core.CoreTests.test_timing_and_omission_are_distinct) ... ok
+test_wrong_word_is_not_declared_confirmed_error (test_core.CoreTests.test_wrong_word_is_not_declared_confirmed_error) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.003s
+
+OK

@@ -1,0 +1,17 @@
+Wheel built using the declared isolated build environment.
+Initial no-build-isolation attempt failed because the local build environment lacked bdist_wheel. No source changes were needed.
+A first import-location assertion was corrected to resolve macOS /var versus /private/var path aliases.
+
+Imported the wheel copy successfully
+usage: subcheck [-h] {prepare-model,audit} ...
+
+Local subtitle review for freelance editors
+
+positional arguments:
+  {prepare-model,audit}
+    prepare-model       Download the pinned ~78 MB English model
+    audit               Compare local audio and SRT; never uploads either
+                        input
+
+options:
+  -h, --help            show this help message and exit

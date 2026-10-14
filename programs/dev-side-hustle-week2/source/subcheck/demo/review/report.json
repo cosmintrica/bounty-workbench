@@ -1,0 +1,322 @@
+{
+  "audio_name": "packing-orders.wav",
+  "captions_name": "needs-review.srt",
+  "model": {
+    "name": "Systran/faster-whisper-tiny.en",
+    "revision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba",
+    "compute_type": "int8_float32"
+  },
+  "generated_at": "2026-10-14T00:59:28.358045+00:00",
+  "duration_seconds": 14.980375,
+  "elapsed_seconds": 1.362,
+  "summary": {
+    "cues": 3,
+    "words": 32,
+    "issues": 7
+  },
+  "issues": [
+    {
+      "kind": "text_difference",
+      "severity": "review",
+      "cue_id": 1,
+      "start": 2.0,
+      "end": 5.851,
+      "message": "This caption fragment differs from speech recognition. Listen before editing; the model may be wrong.",
+      "expected": "three",
+      "observed": "free"
+    },
+    {
+      "kind": "timing_difference",
+      "severity": "review",
+      "cue_id": 1,
+      "start": 2.0,
+      "end": 5.851,
+      "message": "Aligned speech is about 0.11–4.41s; caption is 2.00–5.85s. Review synchronization.",
+      "expected": "Welcome to the studio. Today we are packing three orders.",
+      "observed": "Welcome to the studio. Today we are packing orders."
+    },
+    {
+      "kind": "overlap",
+      "severity": "check",
+      "cue_id": 2,
+      "start": 5.051,
+      "end": 7.361,
+      "message": "This cue begins before an earlier cue has ended.",
+      "expected": "",
+      "observed": ""
+    },
+    {
+      "kind": "text_difference",
+      "severity": "review",
+      "cue_id": 2,
+      "start": 5.051,
+      "end": 7.361,
+      "message": "This caption fragment differs from speech recognition. Listen before editing; the model may be wrong.",
+      "expected": "red",
+      "observed": "blue"
+    },
+    {
+      "kind": "uncertain_recognition",
+      "severity": "review",
+      "cue_id": 2,
+      "start": 5.051,
+      "end": 7.361,
+      "message": "Some aligned words have low model probability. This score is not calibrated accuracy.",
+      "expected": "Put the red notebook beside the camera.",
+      "observed": "Put"
+    },
+    {
+      "kind": "uncovered_speech",
+      "severity": "review",
+      "cue_id": null,
+      "start": 8.25,
+      "end": 10.37,
+      "message": "The model recognized words absent from the captions. Check for an omission or recognition error.",
+      "expected": "No matching caption text",
+      "observed": "the delivery leaves on friday morning"
+    },
+    {
+      "kind": "uncertain_recognition",
+      "severity": "review",
+      "cue_id": 3,
+      "start": 11.059,
+      "end": 14.28,
+      "message": "Some aligned words have low model probability. This score is not calibrated accuracy.",
+      "expected": "Please check every label before you close the box.",
+      "observed": "box."
+    }
+  ],
+  "cues": [
+    {
+      "id": 1,
+      "start": 2.0,
+      "end": 5.851,
+      "text": "Welcome to the studio. Today we are packing three orders."
+    },
+    {
+      "id": 2,
+      "start": 5.051,
+      "end": 7.361,
+      "text": "Put the red notebook beside the camera."
+    },
+    {
+      "id": 3,
+      "start": 11.059,
+      "end": 14.28,
+      "text": "Please check every label before you close the box."
+    }
+  ],
+  "transcript": [
+    {
+      "start": 0.11,
+      "end": 0.93,
+      "text": " Welcome",
+      "probability": 0.656940758228302
+    },
+    {
+      "start": 0.93,
+      "end": 1.29,
+      "text": " to",
+      "probability": 0.9704235196113586
+    },
+    {
+      "start": 1.29,
+      "end": 1.51,
+      "text": " the",
+      "probability": 0.8263124823570251
+    },
+    {
+      "start": 1.51,
+      "end": 2.01,
+      "text": " studio.",
+      "probability": 0.7955371141433716
+    },
+    {
+      "start": 2.43,
+      "end": 2.77,
+      "text": " Today",
+      "probability": 0.9849634766578674
+    },
+    {
+      "start": 2.77,
+      "end": 2.97,
+      "text": " we",
+      "probability": 0.9438908100128174
+    },
+    {
+      "start": 2.97,
+      "end": 3.15,
+      "text": " are",
+      "probability": 0.9857127666473389
+    },
+    {
+      "start": 3.15,
+      "end": 3.59,
+      "text": " packing",
+      "probability": 0.994378387928009
+    },
+    {
+      "start": 3.59,
+      "end": 3.95,
+      "text": " free",
+      "probability": 0.5509462356567383
+    },
+    {
+      "start": 3.95,
+      "end": 4.41,
+      "text": " orders.",
+      "probability": 0.9431074857711792
+    },
+    {
+      "start": 5.31,
+      "end": 5.41,
+      "text": " Put",
+      "probability": 0.3359585106372833
+    },
+    {
+      "start": 5.41,
+      "end": 5.65,
+      "text": " the",
+      "probability": 0.973345160484314
+    },
+    {
+      "start": 5.65,
+      "end": 5.83,
+      "text": " blue",
+      "probability": 0.7778035998344421
+    },
+    {
+      "start": 5.83,
+      "end": 6.31,
+      "text": " notebook",
+      "probability": 0.6638501882553101
+    },
+    {
+      "start": 6.31,
+      "end": 6.77,
+      "text": " beside",
+      "probability": 0.987859308719635
+    },
+    {
+      "start": 6.77,
+      "end": 7.23,
+      "text": " the",
+      "probability": 0.9939385652542114
+    },
+    {
+      "start": 7.23,
+      "end": 7.51,
+      "text": " camera.",
+      "probability": 0.9910354614257812
+    },
+    {
+      "start": 8.25,
+      "end": 8.41,
+      "text": " The",
+      "probability": 0.6883972883224487
+    },
+    {
+      "start": 8.41,
+      "end": 8.69,
+      "text": " delivery",
+      "probability": 0.9633024334907532
+    },
+    {
+      "start": 8.69,
+      "end": 9.17,
+      "text": " leaves",
+      "probability": 0.9553857445716858
+    },
+    {
+      "start": 9.17,
+      "end": 9.49,
+      "text": " on",
+      "probability": 0.9388250112533569
+    },
+    {
+      "start": 9.49,
+      "end": 9.83,
+      "text": " Friday",
+      "probability": 0.9952386617660522
+    },
+    {
+      "start": 9.83,
+      "end": 10.37,
+      "text": " morning.",
+      "probability": 0.9966276288032532
+    },
+    {
+      "start": 11.21,
+      "end": 11.59,
+      "text": " Please",
+      "probability": 0.9794354438781738
+    },
+    {
+      "start": 11.59,
+      "end": 11.93,
+      "text": " check",
+      "probability": 0.9602146744728088
+    },
+    {
+      "start": 11.93,
+      "end": 12.29,
+      "text": " every",
+      "probability": 0.8881582021713257
+    },
+    {
+      "start": 12.29,
+      "end": 12.67,
+      "text": " label",
+      "probability": 0.9903056621551514
+    },
+    {
+      "start": 12.67,
+      "end": 13.01,
+      "text": " before",
+      "probability": 0.9938569664955139
+    },
+    {
+      "start": 13.01,
+      "end": 13.31,
+      "text": " you",
+      "probability": 0.9953457713127136
+    },
+    {
+      "start": 13.31,
+      "end": 13.63,
+      "text": " close",
+      "probability": 0.9911282062530518
+    },
+    {
+      "start": 13.63,
+      "end": 13.95,
+      "text": " the",
+      "probability": 0.9927863478660583
+    },
+    {
+      "start": 13.95,
+      "end": 14.33,
+      "text": " box.",
+      "probability": 0.5430968403816223
+    }
+  ],
+  "settings": {
+    "max_cps": 20,
+    "drift": 0.6,
+    "threads": 4,
+    "language": "en",
+    "vad": true
+  },
+  "limitations": [
+    "AI differences are review suggestions. Listen to the audio before changing captions.",
+    "The included tiny.en model is English-only and can miss or invent speech, especially in noise or silence.",
+    "Word timestamps are approximate. Repeated phrases can align to the wrong occurrence.",
+    "Numbers, names, contractions, paraphrases and non-speech captions can produce false positives.",
+    "Reading speed is a configurable editorial threshold, not an accessibility certification.",
+    "proposed.srt is an unreviewed model transcription; it does not preserve editorial formatting or speaker labels."
+  ],
+  "inputs": {
+    "audio_sha256": "a226d0c1009b4ee75c4ee49be6fd25d9b265c797846cb3e161c73bd517706374",
+    "captions_sha256": "a1e17725d7869e9ffa608d2a112caf1d9d77fd4031bb40c22941ddd7f984071f"
+  }
+}

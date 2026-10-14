@@ -1,0 +1,33 @@
+{
+  "source": "Original text synthesized by eSpeak NG via espeakng-loader 0.2.4",
+  "voice": "en-us",
+  "words_per_minute": 145,
+  "sample_rate": 22050,
+  "sentences": [
+    {
+      "start": 0.5,
+      "end": 4.351337868480726,
+      "text": "Welcome to the studio. Today we are packing three orders."
+    },
+    {
+      "start": 5.051337868480726,
+      "end": 7.360680272108843,
+      "text": "Put the blue notebook beside the camera."
+    },
+    {
+      "start": 8.060680272108844,
+      "end": 10.359092970521543,
+      "text": "The delivery leaves on Friday morning."
+    },
+    {
+      "start": 11.059092970521542,
+      "end": 14.280362811791383,
+      "text": "Please check every label before you close the box."
+    }
+  ],
+  "intentional_changes": [
+    "First cue delayed by 1.5 seconds",
+    "blue replaced by red in cue 2",
+    "Delivery sentence omitted"
+  ]
+}

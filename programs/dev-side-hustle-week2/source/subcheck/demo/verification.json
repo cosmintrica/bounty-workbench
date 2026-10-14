@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-10-14T01:00:32.048528+00:00",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "python": "3.11.4",
+  "unit_tests": {
+    "count": 18,
+    "result": "passed",
+    "log": "unit-tests.txt"
+  },
+  "runtime": {
+    "audio_seconds": 14.980375,
+    "recognized_words": 32,
+    "intentionally_changed_caption_issues": 7,
+    "reference_caption_issues": 3,
+    "warm_review_seconds": 1.362,
+    "reference_review_seconds": 1.03,
+    "first_run_seconds": 10.45,
+    "compute_type": "int8_float32"
+  },
+  "offline": {
+    "method": "macOS sandbox-exec: (version 1)(allow default)(deny network*)",
+    "network_negative_control": "Attempt to connect to 127.0.0.1:9 raised PermissionError: [Errno 1] Operation not permitted.",
+    "changed_and_reference_audits": "completed successfully under the same network-denial profile"
+  },
+  "observed_results": [
+    "Intentional 1.5s delay flagged as timing_difference",
+    "Intentional red/blue substitution flagged as text_difference",
+    "Intentionally omitted delivery sentence flagged as uncovered_speech",
+    "Delayed first cue also caused deterministic overlap with cue 2"
+  ],
+  "limitations_observed": [
+    "Correct reference captions also generated three review items: ASR three/free substitution and low probabilities for Put/box.",
+    "Synthetic eSpeak fixture does not prove reliability for human recordings.",
+    "No human listen-through, real customer validation, revenue or contest submission confirmed."
+  ],
+  "source_hashes": {
+    "subcheck/core.py": "5a3ff1b5c01a467125a29b14b3fa2f5b575a8cc9e80e912a43e3899ab7ea2c5b",
+    "subcheck/cli.py": "94a35b99b35103a6219a82d1965842de5680019cb0c707c2a4f3066a3693d6e2",
+    "make_demo.py": "2c41104fa79e7058e31971ca4b0090fde82a2a62b5f3b7e050df0a43457a4449"
+  }
+}

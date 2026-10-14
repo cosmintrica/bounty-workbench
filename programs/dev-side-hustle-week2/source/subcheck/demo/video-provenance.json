@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-10-14T01:04:10.278287+00:00",
+  "type": "Generated evidence walkthrough; not a UI recording",
+  "audio_start_seconds": 6,
+  "duration_seconds": 47.98036281179138,
+  "input_audio_sha256": "a226d0c1009b4ee75c4ee49be6fd25d9b265c797846cb3e161c73bd517706374",
+  "input_changed_report_sha256": "1a1fb81c93759a7c2d2aebefa056625439d71a2e6bcf85708a4f633cf13a679f",
+  "input_reference_report_sha256": "aca68b5b09302268d66acbc590ab0385781f7caad79297edec4a02b330b09577",
+  "output_sha256": "f06ee45b0e8500df3b964df830bd28336950e8f9f7d949ef70b988138650a713"
+}

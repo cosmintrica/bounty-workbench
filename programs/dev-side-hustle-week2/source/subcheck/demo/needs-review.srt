@@ -1,0 +1,11 @@
+1
+00:00:02,000 --> 00:00:05,851
+Welcome to the studio. Today we are packing three orders.
+
+2
+00:00:05,051 --> 00:00:07,361
+Put the red notebook beside the camera.
+
+3
+00:00:11,059 --> 00:00:14,280
+Please check every label before you close the box.

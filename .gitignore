@@ -1,0 +1,16 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+**/.venv/
+**/.models/
+**/__pycache__/
+*.pyc
+*.egg-info/
+**/node_modules/
+**/build/
+**/dist/
+**/private/
+**/secrets/
+**/browser-state/
+**/cookies/
